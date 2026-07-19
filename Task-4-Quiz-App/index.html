@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Task 4 | Quiz App</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- =========================
+             Header
+        ========================== -->
+
+      <header class="header">
+        <h1>🧠 Embedded Learning Hub</h1>
+
+        <p>Learn • Practice • Improve</p>
+      </header>
+
+      <!-- =========================
+             Home Section
+        ========================== -->
+
+      <section id="home-section">
+        <h2>Choose Your Learning Module</h2>
+
+        <p class="subtitle">
+          Select any module below and test your knowledge with multiple-choice
+          questions.
+        </p>
+
+        <div class="module-grid">
+          <!-- IoT -->
+
+          <div class="module-card" data-module="iot">
+            <div class="icon">🌐</div>
+
+            <h3>IoT Basics</h3>
+
+            <p>
+              Internet of Things fundamentals, MQTT, Wi-Fi, ESP32 and Cloud.
+            </p>
+
+            <div class="module-footer">
+              <span> 5 Questions </span>
+
+              <span class="level beginner"> Beginner </span>
+            </div>
+          </div>
+
+          <!-- Arduino -->
+
+          <div class="module-card" data-module="arduino">
+            <div class="icon">🤖</div>
+
+            <h3>Arduino Programming</h3>
+
+            <p>setup(), loop(), digitalWrite(), analogRead() and pinMode().</p>
+
+            <div class="module-footer">
+              <span> 5 Questions </span>
+
+              <span class="level intermediate"> Intermediate </span>
+            </div>
+          </div>
+
+          <!-- Sensors -->
+
+          <div class="module-card" data-module="sensors">
+            <div class="icon">📡</div>
+
+            <h3>Sensors & Modules</h3>
+
+            <p>DHT11, Ultrasonic, PIR, IR Sensor and LDR.</p>
+
+            <div class="module-footer">
+              <span> 5 Questions </span>
+
+              <span class="level beginner"> Beginner </span>
+            </div>
+          </div>
+
+          <!-- Embedded C -->
+
+          <div class="module-card" data-module="embedded">
+            <div class="icon">⚡</div>
+
+            <h3>Embedded C</h3>
+
+            <p>Variables, loops, functions, GPIO and pointers.</p>
+
+            <div class="module-footer">
+              <span> 5 Questions </span>
+
+              <span class="level advanced"> Advanced </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+             Quiz Section
+        ========================== -->
+
+      <section id="quiz-section" class="hidden">
+        <div class="quiz-top">
+          <button id="back-btn">← Back</button>
+
+          <p id="question-counter">Question 1 of 5</p>
+        </div>
+
+        <h2 id="module-title">IoT Basics</h2>
+
+        <h3 id="question">Question appears here...</h3>
+
+        <div class="options">
+          <label class="option">
+            <input type="radio" name="answer" />
+
+            <span id="option1"></span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" />
+
+            <span id="option2"></span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" />
+
+            <span id="option3"></span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" />
+
+            <span id="option4"></span>
+          </label>
+        </div>
+
+        <p id="error-message" class="hidden">
+          ⚠ Please select an answer before continuing.
+        </p>
+
+        <div class="button-area">
+          <button id="next-btn">Next →</button>
+        </div>
+      </section>
+
+      <!-- =========================
+             Result Section
+        ========================== -->
+
+      <section id="result-section" class="hidden">
+        <h2>🎉 Quiz Completed!</h2>
+
+        <h3 id="score-text">0 / 5</h3>
+
+        <p id="performance"></p>
+
+        <div id="review-section">
+          <h3>📖 Review Your Mistakes</h3>
+
+          <div id="review-list"></div>
+        </div>
+
+        <div class="result-buttons">
+          <button id="restart-btn">Choose Another Module</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
