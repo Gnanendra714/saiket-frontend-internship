@@ -4,29 +4,33 @@
 
 This project was developed as **Task 1** of my **Front-End Development Internship** at **SaiKet Systems**.
 
-The objective was to create a semantic HTML blog post layout that presents technical content in a clean, structured, and user-friendly format. The blog focuses on **Embedded Systems and the Internet of Things (IoT)**, explaining their concepts, applications, benefits, and challenges.
+The objective of this project was to create a responsive and semantic HTML blog layout that presents technical content in a clean, structured, and visually appealing format. The blog explores the fundamentals of **Embedded Systems** and the **Internet of Things (IoT)**, highlighting their applications, advantages, and real-world impact.
 
 ---
 
 ## 🎯 Objective
 
-Design a blog post using semantic HTML elements while maintaining a clean layout and professional presentation.
+- Build a semantic HTML5 blog layout.
+- Apply modern CSS styling techniques.
+- Create a responsive user interface.
+- Organize content using proper HTML elements.
+- Improve readability through typography and spacing.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- Semantic HTML5 structure
-- Professional blog layout
-- Responsive design
-- Featured image with caption
-- Publication date using the `<time>` element
-- Author information
-- Structured content sections
-- Real-world applications list
-- Read More button
-- Modern UI with CSS
-- Mobile-friendly design
+- ✅ Semantic HTML5 structure
+- ✅ Responsive design
+- ✅ Professional blog layout
+- ✅ Featured image with caption
+- ✅ Publication date using the `<time>` element
+- ✅ Author information
+- ✅ Organized content sections
+- ✅ Applications, Benefits & Challenges
+- ✅ Modern typography
+- ✅ Clean and attractive UI
+- ✅ Mobile-friendly design
 
 ---
 
@@ -45,7 +49,15 @@ Task-1-Blog-Layout/
 │
 ├── assets/
 │   └── images/
-│       └── embedded-iot.jpg
+│       └── embedded-iot.png
+│
+├── Outcome Pictures/
+│   ├── 01.png
+│   ├── 02.png
+│   ├── 03.png
+│   ├── 04.png
+│   ├── 05.png
+│   └── 06.png
 │
 ├── index.html
 ├── style.css
@@ -54,58 +66,42 @@ Task-1-Blog-Layout/
 
 ---
 
-## 📸 Project Preview
+## 🌐 Live Demo
 
-Below are screenshots showcasing different sections of the project.
+🚀 **Explore the project online**
 
-### Home Page
+### 🔗 **Live Website**
 
-![Home Page](Outcome Pictures/01.png)
-
-### Introduction Section
-
-![Introduction](Outcome Pictures/02.png)
-
-### Featured Image Section
-
-![Featured Image](Outcome Pictures/03.png)
-
-### Applications & Benefits
-
-![Applications](Outcome Pictures/04.png)
-
-### Challenges & Conclusion
-
-![Conclusion](Outcome Pictures/05.png)
-
-### Mobile Responsive View
-
-![Mobile View](Outcome Pictures/06.png)
+https://gnanendra714.github.io/saiket-frontend-internship/Task-1-Blog-Layout/index.html
 
 ---
 
 ## 📚 What I Learned
 
-During this project, I gained practical experience in:
+During this project, I gained hands-on experience in:
 
 - Semantic HTML5
-- Page structure using semantic elements
-- Responsive web design
-- CSS styling and layout
-- Typography and spacing
-- Accessibility best practices
-- Organizing front-end projects professionally
+- Responsive Web Design
+- CSS Styling & Layout Techniques
+- Typography and Visual Hierarchy
+- Accessibility Best Practices
+- Professional Project Organization
+- Building Portfolio-Ready Projects
+- Git & GitHub Workflow
+- GitHub Pages Deployment
 
 ---
 
-## 📈 Future Improvements
+## 🚀 Future Improvements
 
-- Dark mode
-- Reading progress bar
-- Social sharing buttons
-- Back-to-top button
-- Better animations
-- Enhanced accessibility
+- Dark Mode
+- Reading Progress Bar
+- Social Sharing Buttons
+- Back-to-Top Button
+- Smooth Scroll Animations
+- Improved Accessibility
+- Search Functionality
+- Related Articles Section
 
 ---
 
@@ -115,10 +111,10 @@ During this project, I gained practical experience in:
 
 Electronics & Communication Engineering Student
 
-Front-End Development Intern @ SaiKet Systems
+**Front-End Development Intern @ SaiKet Systems**
 
 ---
 
 ## 📄 License
 
-This project was created for educational purposes as part of the SaiKet Systems Front-End Development Internship.
+This project was developed for educational purposes as part of the **SaiKet Systems Front-End Development Internship**.
